@@ -1,0 +1,31 @@
+/*
+COLORS:
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+*/
+
+* {
+  /* remove some default style that browser apply to HTML element */
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* because everything related to font can be inherited so we can set it in body element */
+
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+
+.header {
+  height: 95vh;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+}
+
